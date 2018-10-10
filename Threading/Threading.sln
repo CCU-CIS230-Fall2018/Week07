@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Threading.csproj", "{A75933A0-D259-45A6-B283-C6AB5E86A8B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingTest", "ThreadingTest\ThreadingTest.csproj", "{664B93B8-2CEF-4C07-9088-18BA644FAD37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A75933A0-D259-45A6-B283-C6AB5E86A8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75933A0-D259-45A6-B283-C6AB5E86A8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75933A0-D259-45A6-B283-C6AB5E86A8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75933A0-D259-45A6-B283-C6AB5E86A8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664B93B8-2CEF-4C07-9088-18BA644FAD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664B93B8-2CEF-4C07-9088-18BA644FAD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664B93B8-2CEF-4C07-9088-18BA644FAD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664B93B8-2CEF-4C07-9088-18BA644FAD37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AAA739F-3E8E-4FD9-8913-7CC799ACB1BD}
+	EndGlobalSection
+EndGlobal
