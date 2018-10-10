@@ -9,17 +9,15 @@ using System.ComponentModel;
 
 namespace Threading
 {
-    class Threads
+    public class Threads
     {
-        public static void CreateStopwatch()
-        {
-            Stopwatch sw = new Stopwatch.StartNew();
-        }
-        public static void RunSequential()
+        public static double RunSequential()
         {
             double result = 0d;
             result += ReadDataFromIO();
             result += DoIntensiveCalculations();
+            Console.WriteLine($"The result is {result}");
+            return result;
         }
         public static double ReadDataFromIO()
         {
