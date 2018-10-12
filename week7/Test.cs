@@ -6,12 +6,27 @@ using System.Threading.Tasks;
 
 namespace week7
 {
-    class FindPrimes
+    public class Test
     {
-        public var number = Console.WriteLine("Type the int max for the primes you want to see: ");
+        static void CompileWith(string[] args)
+        {
+            Console.WriteLine("Type the int max for the primes you want to see: ");
 
-        FindPrimes(int number);
+            var number = Console.ReadLine();
 
-        Console.WriteLine("The primes are: " + FindPrimes);
+            FindPrimes(number);
+
+            Console.WriteLine("The primes are: ", FindPrimes());
+        }
+
+        private static int FindPrimes()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void FindPrimes(string number)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
