@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ThreadExample;
-using Utils;
 using System.Diagnostics;
+
 
 
 namespace ThreadTesting

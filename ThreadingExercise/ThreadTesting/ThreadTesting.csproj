@@ -56,10 +56,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary2\Utils.csproj">
-      <Project>{1d7c3924-2bf1-4930-84dc-e5510614ea4b}</Project>
-      <Name>Utils</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ThreadExample\ThreadExample.csproj">
       <Project>{893aadfc-5541-4b49-8326-048cba05ffd3}</Project>
       <Name>ThreadExample</Name>
